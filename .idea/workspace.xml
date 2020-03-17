@@ -1,33 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="67136713-0146-4ad4-85e8-b1058b3dc162" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/appli/GraphFX.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChessGame_Destenay/appli/Serialize.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChessGame_Destenay/appli/Serialize.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChessGame_Destenay/appli/tp1ex3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChessGame_Destenay/appli/tp1ex3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChessGame_Destenay/chessPieces/Bishop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChessGame_Destenay/chessPieces/Bishop.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChessGame_Destenay/chessPieces/Color$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChessGame_Destenay/chessPieces/Color$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChessGame_Destenay/chessPieces/Color$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChessGame_Destenay/chessPieces/Color$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChessGame_Destenay/chessPieces/Color.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChessGame_Destenay/chessPieces/Color.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChessGame_Destenay/chessPieces/Coord.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChessGame_Destenay/chessPieces/Coord.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChessGame_Destenay/chessPieces/King.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChessGame_Destenay/chessPieces/King.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChessGame_Destenay/chessPieces/Knight.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChessGame_Destenay/chessPieces/Knight.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChessGame_Destenay/chessPieces/Movable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChessGame_Destenay/chessPieces/Movable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChessGame_Destenay/chessPieces/Pawn.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChessGame_Destenay/chessPieces/Pawn.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChessGame_Destenay/chessPieces/Queen.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChessGame_Destenay/chessPieces/Queen.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChessGame_Destenay/chessPieces/Rook.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChessGame_Destenay/chessPieces/Rook.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChessGame_Destenay/game/Case.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChessGame_Destenay/game/Case.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChessGame_Destenay/game/ChessBoard$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChessGame_Destenay/game/ChessBoard$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChessGame_Destenay/game/ChessBoard.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChessGame_Destenay/game/ChessBoard.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChessGame_Destenay/game/InitChess.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChessGame_Destenay/game/InitChess.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChessGame_Destenay/game/Piece.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChessGame_Destenay/game/Piece.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChessGame_Destenay/gameException/IllegalMove.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChessGame_Destenay/gameException/IllegalMove.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChessGame_Destenay/gameException/IllegalPosition.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChessGame_Destenay/gameException/IllegalPosition.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/save" beforeDir="false" afterPath="$PROJECT_DIR$/save" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game/GraphFX.java" beforeDir="false" />
-    </list>
+    <list default="true" id="67136713-0146-4ad4-85e8-b1058b3dc162" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -165,7 +139,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1584474159418" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1584474171895" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
