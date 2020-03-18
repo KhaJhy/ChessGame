@@ -11,7 +11,6 @@ import java.util.ArrayList;
 public class ChessBoard implements Serializable {
     private Case cases[][];
     public static final int SIZE = 8;
-    public static int turn = 0;
     public Color currentPlayer = Color.WHITE;
 
     /**
