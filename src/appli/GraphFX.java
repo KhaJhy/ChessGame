@@ -1,6 +1,7 @@
 package appli;
 
 import chessPieces.*;
+import game.Case;
 import game.ChessBoard;
 import game.InitChess;
 import gameException.IllegalMove;
@@ -17,6 +18,8 @@ import javafx.scene.layout.HBox;
 import javafx.scene.paint.Paint;
 import javafx.stage.Stage;
 
+import java.util.ArrayList;
+import java.util.List;
 
 
 public class GraphFX extends Application implements EventHandler<MouseEvent> {
@@ -107,24 +110,43 @@ public class GraphFX extends Application implements EventHandler<MouseEvent> {
 
     @Override
     public void handle(MouseEvent event) {
+        List<Coord> movements = new ArrayList<Coord>();
+
         if (from) {
             fromx = (int) (event.getX() / sizeCase);
             fromy = (int) (event.getY() / sizeCase);
             from = false;
+            try {
+                movements = game.getCase(new Coord(fromy, fromx)).getPiece().getValidCases(new Coord(fromy, fromx));
+            } catch (IllegalPosition | IllegalMove illegalPosition) {
+                illegalPosition.printStackTrace();
+            }
+            for (int i = 0; i < movements.size(); i++){
+                unCanvas.getGraphicsContext2D().setFill(Paint.valueOf("red"));
+                unCanvas.getGraphicsContext2D().fillRect(sizeCase * movements.get(i).getY(), sizeCase * movements.get(i).getX(), sizeCase, sizeCase);
+            }
         } else {
             tox = (int) (event.getX() / sizeCase);
             toy = (int) (event.getY() / sizeCase);
+            drawChessboard();
+            try {
+                drawPieces(game);
+            } catch (IllegalPosition illegalPosition) {
+                illegalPosition.printStackTrace();
+            }
             try {
                 if (game.getCase(new Coord(fromy, fromx)).getPiece().getCol().equals(game.currentPlayer)) {
                     game.getCase(new Coord(fromy, fromx)).getPiece().move(new Coord(toy, tox));
+                    drawChessboard();
                     game.changePlayerTurn();
                     if (game.getCurrentPlayer().equals(Color.BLACK)){
                         System.out.println("IT IS BLACK'S TURN !");
                     } else {
                         System.out.println("IT IS WHITE'S TURN !");
                     }
+                } else {
+                    System.err.println("Ce n'est pas ton tour !");
                 }
-                drawChessboard();
                 drawPieces(game);
             } catch (IllegalMove ex) {
                 System.err.println("Ce mouvement est impossible... ");

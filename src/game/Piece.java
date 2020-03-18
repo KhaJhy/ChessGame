@@ -96,7 +96,7 @@ public abstract class Piece implements Movable, Serializable {
 
     public List<Coord> getValidCases(Coord pos) throws IllegalPosition, IllegalMove {
         ArrayList<Coord> res = new ArrayList<>();
-        Coord test = pos;
+        Coord test;
         for (int i = 0; i < ChessBoard.SIZE; i++){
             for (int j = 0; j < ChessBoard.SIZE; j++){
                 test = new Coord(i, j);
